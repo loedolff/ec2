@@ -1,0 +1,17 @@
+{
+  "name": "ec2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create": "ts-node src/createInstance.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1167.0",
+    "dotenv": "^16.0.1",
+    "ts-node": "^10.8.1"
+  }
+}
